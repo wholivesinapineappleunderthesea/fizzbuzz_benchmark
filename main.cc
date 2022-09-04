@@ -15,10 +15,10 @@ public:
 class FizzBuzzIncremental : public FizzBuzzer {
 public:
 	void RunOnce(long n) {
-		int fizzplace = 3;
-		int buzzplace = 5;
+		long fizzplace = 3;
+		long buzzplace = 5;
 
-		int i = 0;
+		long i = 0;
 		// no remainder with a numerator of zero, thus satisfies both conditions
 		printf("FizzBuzz\n");
 		i++;
